@@ -1,0 +1,19 @@
+stateless component : functional component.
+contoh :
+function heiPit() {
+   return <p> hai pipit </p>
+}
+ubah ke es6 :
+const heiPit = () => {
+   return <p> hai pipit </p>
+}
+ 
+statefull component : class component
+contoh :
+class heiPit extends React.Component {
+   render(){
+       return <p> hei pipit </p> 
+   }
+}
+
+props berfungsi untuk membuat suatu component menjadi dinamis
