@@ -1,5 +1,5 @@
 import React from "react";
-import Img1 from '../../../../images/mataharii.jpg'
+import Img1 from '../../../images/mataharii/png'
 import './YoutubeComp.css'
 
 const YoutubeComp = (props) => {
