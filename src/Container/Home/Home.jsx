@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import '../../App.css'
-import Product from '../../Component/Statefull/Product/Product'
+import Header from "../../Component/Statefull/CardProduct/Header";
 
 class Home extends Component {
     render() {
@@ -14,7 +14,8 @@ class Home extends Component {
             <YoutubeComp />
              */}
             <h2>Counter</h2>
-            <Product />
+            {/* <Product /> */}
+            <Header />
         </div>
         )
         

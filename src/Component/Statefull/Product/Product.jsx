@@ -8,7 +8,6 @@ class Product extends Component {
         order: 4
     }
 
-   
     handlePlus = () => {
        this.setState ({
         order: this.state.order + 1
@@ -23,7 +22,6 @@ class Product extends Component {
         }
        
     }
-
 
     render() {
         return (
