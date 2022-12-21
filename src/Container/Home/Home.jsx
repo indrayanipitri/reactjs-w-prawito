@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import '../../App.css'
-import Header from "../../Component/Statefull/CardProduct/Header";
+import BlogPost from "../../Component/Statefull/BlogPost/BlogPost";
+// import Product from "../../Component/Statefull/Product/Product";
+
 
 class Home extends Component {
     render() {
@@ -13,9 +15,10 @@ class Home extends Component {
             <YoutubeComp time="30.51" title="ya gitu deh" desc="678 ditonton, 14 hari lalu"/>
             <YoutubeComp />
              */}
-            <h2>Counter</h2>
-            {/* <Product /> */}
-            <Header />
+            {/* <h2>Counter</h2>
+            <Product /> */}
+            {/* <Header /> */}
+            <BlogPost />
         </div>
         )
         

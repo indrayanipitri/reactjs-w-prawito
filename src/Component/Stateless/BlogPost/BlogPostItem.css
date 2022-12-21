@@ -1,0 +1,16 @@
+
+.card {
+    border: 1px solid #000;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.content {
+    padding: 0 12px
+}
+
+.title-blog {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
