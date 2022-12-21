@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import BlogPostItem from "../../Stateless/BlogPost/BlogPostItem";
-
+import axios from "axios";
 
 
 class BlogPost extends Component {
@@ -9,9 +9,17 @@ class BlogPost extends Component {
     }
 
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/posts').then(response => response.json()).then(json => {
-            this.setState( {
-                post: json
+        //with fetch:
+        // fetch('https://jsonplaceholder.typicode.com/posts').then(response => response.json()).then(json => {
+        //     this.setState( {
+        //         post: json
+        //     })
+        // })
+
+        //with axios:
+        axios.get('https://jsonplaceholder.typicode.com/posts').then((result) => {
+            this.setState ( {
+                post: result.data
             })
         })
     }
